@@ -67,6 +67,10 @@ body {
   img {
     max-height: 5rem;
   }
+  h1 {
+    font-size: 2rem;
+    font-family: 'Leckerli One', cursive;
+  }
 }
 
 .nav {
@@ -198,7 +202,7 @@ body {
   }
   &--current {
     a {
-      color: $captionColour;
+      color: $hoverColour;
     }
   }
 }

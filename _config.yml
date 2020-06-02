@@ -8,6 +8,7 @@
 # 7. Site settings
 # 8. Site favicons & manifest icons
 # 9. Site navigation
+# 10. Theme
 
 # 1. Files excluded from Jekyll builds
 exclude:
@@ -104,16 +105,14 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path' 
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /elements/
+- title: About
+  url: /about/
 - title: Blog
   url: /blog/
 - title: Categories
   url: /categories/
 - title: Search
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Miguel Malcolm

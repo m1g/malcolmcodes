@@ -2,14 +2,14 @@
 $backgroundColour: #ffffff !default;
 $codeBackgroundColour: #fafafa !default;
 $featureBackgroundColour: #f9fafa !default;
-$accentColour: #05bf85 !default;
+$accentColour: #0088ff !default;
 
 // Text colours
 $headingColour: #242e2b !default;
 $bodyColour: #384743 !default;
-$linkColour: #05bf85 !default;
-$hoverColour: #008000 !default;
-$focusColour: #fa407a !default;
+$linkColour: #0088ff !default;
+$hoverColour: #005daf !default;
+$focusColour: #005daf !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
@@ -37,3 +37,4 @@ $monospacetype: (
 
 // Font import, if you're using a non-standard web font
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
