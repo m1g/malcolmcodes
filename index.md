@@ -1,4 +1,19 @@
 ---
+title: Under Construction
+layout: page
+---
+
+
+_Thanks for your patience. I've got the best people working around the clock to get this up and running! Or... or maybe it's just me. Probably just me_
+
+**Check back in a few weeks!**
+
+![We're working on it](https://media.istockphoto.com/vectors/construction-workers-and-engineers-vector-id910090876?k=6&m=910090876&s=612x612&w=0&h=X6l5-kQMjJARicdwS3_ftilzf57ybVBwvExUP3HQuzU=)
+
+
+{% include button.html text="At Me" icon="twitter" link="https://twitter.com/miguelmalcolm" color="#0d94e7" %}{% include button.html text="Octocat" icon="github" link="https://github.com/m1g" color="#333" %}
+
+<!-- ---
 title: Home
 feature_text: |
   ## Alembic
@@ -94,19 +109,4 @@ When using Alembic as a theme means you can take advantage of the file overridin
 
 To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
 
-If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
-
-<!-- ---
-title: Under Construction
-layout: page
----
-
-
-_Thanks for your patience. I've got the best people working around the clock to get this up and running! Or... or maybe it's just me. Probably just me_
-
-**Check back in a few weeks!**
-
-![We're working on it](https://media.istockphoto.com/vectors/construction-workers-and-engineers-vector-id910090876?k=6&m=910090876&s=612x612&w=0&h=X6l5-kQMjJARicdwS3_ftilzf57ybVBwvExUP3HQuzU=)
-
-
-{% include button.html text="At Me" icon="twitter" link="https://twitter.com/miguelmalcolm" color="#0d94e7" %}{% include button.html text="Octocat" icon="github" link="https://github.com/m1g" color="#333" %} -->
+If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings. -->
