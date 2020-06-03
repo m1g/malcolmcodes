@@ -67,10 +67,6 @@ body {
   img {
     max-height: 5rem;
   }
-  h1 {
-    font-size: 2rem;
-    font-family: 'Leckerli One', cursive;
-  }
 }
 
 .nav {
@@ -182,6 +178,7 @@ body {
   &--nav {
     overflow: hidden;
     margin-bottom: var(--listHeight, 0);
+    font: 600 1.4rem 'Source Sans Pro', sans-serif;
   }
   .item--post,
   .item--result,
