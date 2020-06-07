@@ -7,7 +7,7 @@
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
     <section class="section  section--description">
-      <h3>About this site</h3>
+      {% include figure.html image="https://pbs.twimg.com/profile_images/1150175934160494594/vlkp37A1_200x200.jpg" alt="profile image" %}
       <p>{{ site.description }}</p>
       {% include nav-social.html %}
     </section>
