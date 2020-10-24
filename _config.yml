@@ -12,29 +12,29 @@
 
 # 1. Files excluded from Jekyll builds
 exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- .jekyll-cache
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - screenshot.png
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - alembic-jekyll-theme.gemspec
+  - .jekyll-cache
 
 # 2. Installed Gems
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -45,20 +45,20 @@ twitter:
 author: miguelmalcolm # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Miguel Malcolm # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
+  links: # jekyll-seo-tag > social aliases (sameAs)
     - https://twitter.com/miguelmalcolm
     - https://www.instagram.com/miguelxmalcolm
     - https://www.linkedin.com/in/miguel-js
     - https://github.com/m1g
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
-  # options: ["SMART", "FOOTNOTES"]
-  # extensions: ["strikethrough", "autolink", "table"]
+# options: ["SMART", "FOOTNOTES"]
+# extensions: ["strikethrough", "autolink", "table"]
 
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: pretty # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
@@ -67,27 +67,26 @@ collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "All posts organized by most recent" # The post list page content
-    feature_image: "https://i.imgur.com/3RYGeA1.jpg"
+    description: 'All posts organized by most recent' # The post list page content
+    feature_image: '/assets/img/blog-feature.jpg'
 
 # 6. Jekyll collections settings
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+      image: '/assets/default-social-image.png' # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Malcolm Codes" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Louisiana born ~ Brooklyn bred. It just means that I prefer a local brew with my crawfish etoufee, and a proper day party requires a healthy serving of neo-soul at a minimum" # Site description and default description, also used in jekyll-seo-tag
-url: "https://malcolmcodes.com" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/m1g/malcolmcodes"
-email: "malcolm@malcolmcodes.com"
+title: 'Malcolm Codes' # Site name or title, also used in jekyll-seo-tag
+logo: '/assets/logos/logo.svg' # Site logo, also used in jekyll-seo-tag
+description: 'Louisiana born ~ Brooklyn bred. It just means that I prefer a local brew with my crawfish etoufee, and a proper day party requires a healthy serving of neo-soul at a minimum' # Site description and default description, also used in jekyll-seo-tag
+url: 'https://malcolmcodes.com' # Site url, also used in jekyll-seo-tag
+baseurl: ''
+repo: 'https://github.com/m1g/malcolmcodes'
+email: 'malcolm@malcolmcodes.com'
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
@@ -101,20 +100,20 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path' 
 
 # 9. Site navigation
 navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-- title: Categories
-  url: /categories/
-- title: Search
-  url: /search/
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Categories
+    url: /categories/
+  - title: Search
+    url: /search/
 
 navigation_footer:
-- title: Miguel Malcolm
-  url: https://malcolmcodes.com
+  - title: Miguel Malcolm
+    url: https://malcolmcodes.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/miguelmalcolm
@@ -122,7 +121,7 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   GitHub: https://github.com/m1g
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
+  Twitter: '#0d94e7'
   Email: true
 
 # 10. Theme
