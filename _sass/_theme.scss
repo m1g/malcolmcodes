@@ -463,3 +463,25 @@ pre code {
     overflow-x: scroll;
   }
 }
+
+.container.typeset {
+  @for $i from 2 through $breakpoints-limit {
+    $rootsize: nth($sizes, $i);
+    $get-scale: map-get($modular-scale, scale-0);
+    $get-size: map-get($get-scale, zeta);
+    $baseline-shift: #{(
+        $get-size /
+          2 *
+          ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))
+      ) /
+      $rootsize +
+      0.00001};
+
+    h2,
+    p {
+      background: $headingColour;
+      color: $white;
+      padding: 0 #{$baseline-shift}rem;
+    }
+  }
+}
