@@ -10,6 +10,8 @@ That's right, I want all the smoke. I've got three reasons why after a long day 
 
 > _Disclaimer: The rest of my devices are Apple products - don't judge me_
 
+---
+
 ### 1. It's Affordable
 
 I scooped up a version of [this bad boy][windows_laptop] refurbished for only \$450 from Best Buy. The internet connection is kind of weak, but I'm sure there's some upgrade that I haven't installed or some adapter that I'd need to buy to improve the performance. All things considered, for the size of the screen and to be able to do the basics + some simple gaming - it's perfect. After hacking away at some side projects, I can launch Steam, break out the Xbox controller and play Halo. Seamless
